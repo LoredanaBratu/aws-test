@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import "./TaskOne";
-import TaskOne from "./TaskOne";
+import "./todos/TaskOne";
+import TaskOne from "./todos/TaskOne";
 import Todo from "./todos/Todo";
 import myInfo from "./firstEx/myInfo";
 import Checkboxes from "./firstEx/Checkboxes";
