@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Todo from "./Todo";
 
 export default function TaskOne() {
   const date = new Date();
@@ -26,6 +28,9 @@ export default function TaskOne() {
         <span>low priority</span>
       </div>
       It's {hours}
+      <div>
+        <Link to="/todo">Click here</Link>
+      </div>
     </div>
   );
 }
