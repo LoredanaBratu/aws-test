@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Todo from "./Todo";
 
 export default function TaskOne() {
   const date = new Date();
